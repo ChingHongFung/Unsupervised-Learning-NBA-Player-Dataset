@@ -2,7 +2,7 @@
 
 This is a project looking at a nba player dataset. The objective is to test the performance of different clustering algorithms in grouping NBA players into clusters. It is especially fun as I could combine my ML skills with a personal interest to generate some interesting insights. Data is available via https://www.kaggle.com/drgilermo/nba-players-stats
 
-A supervised learning approach is used where I tested the KMeans, Hierarchical and Mean-shift algorithms using Scikit-Learn and SciPy. More descriptions could be found in the Jupyter Notebook documents.
+A supervised learning approach is used where I tested the KMeans, Hierarchical and Mean-shift algorithms using Scikit-Learn and SciPy. More descriptions could be found in the Jupyter Notebook document.
 
 #### PCA
 Princiapl Component Analysis is used to reduce the dimensionality of the feature set for clear visualisation fo the data. 
