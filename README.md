@@ -13,6 +13,7 @@ Princiapl Component Analysis is used to reduce the dimensionality of the feature
 I used an arbitary number of clusters of 10 to see how players would be grouped. This is a parameter that could be tuned in future works.
 
 Diagram of KMeans results:
+
 ![kmeans](https://user-images.githubusercontent.com/91271318/137004266-97fff260-f5b9-4356-ad7b-6408d9956a6a.png)
 
 #### Hierarchical
@@ -21,12 +22,14 @@ This dendrogram shows how each clusters could be connected depending on the cut-
 ![dendrogram](https://user-images.githubusercontent.com/91271318/137004259-cae74b96-abd3-4bc9-a2ff-295407a611e5.png)
 
 Diagram of Hierarchical results:
+
 ![hierarchical](https://user-images.githubusercontent.com/91271318/137004265-8a586b60-c3da-43af-b462-276d47d7a40f.png)
 
 #### Mean-shift 
 The bandwith of the shifting window is set to 1 as an arbitary number which also could be tuned in future works.
 
 Diagram of Mean-shift results:
+
 ![meanshift](https://user-images.githubusercontent.com/91271318/137004269-d66cba14-8805-45d4-9327-f418cdc45c3f.png)
 
 #### Conclusion
