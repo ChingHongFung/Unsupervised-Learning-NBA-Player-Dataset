@@ -26,7 +26,7 @@ Diagram of Hierarchical results:
 ![hierarchical](https://user-images.githubusercontent.com/91271318/137004265-8a586b60-c3da-43af-b462-276d47d7a40f.png)
 
 #### Mean-shift 
-The bandwith of the shifting window is set to 1 as an arbitary number which also could be tuned in future works.
+The bandwidth of the shifting window is set to 1 as an arbitary number which also could be tuned in future works.
 
 Diagram of Mean-shift results:
 
