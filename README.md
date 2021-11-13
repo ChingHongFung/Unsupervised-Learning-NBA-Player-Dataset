@@ -11,6 +11,8 @@ A supervised learning approach is used where I tested the KMeans, Hierarchical a
 * Scikit-Learn
 * SciPy
 
+### Overview
+
 #### PCA
 Princiapl Component Analysis is used to reduce the dimensionality of the feature set for clear visualisation fo the data. 
 
@@ -39,7 +41,7 @@ Diagram of Mean-shift results:
 
 ![meanshift](https://user-images.githubusercontent.com/91271318/137004269-d66cba14-8805-45d4-9327-f418cdc45c3f.png)
 
-#### Conclusion
+### Conclusion
 Throughout this analysis, it could be seen that mean-shift has resulted in the largest cluster of all due to the densely populated data in the centre whereas kmeans and hierchical have relatively similar results. As kmeans and hierarchical work on the basis of finding closest Euclidean distances and assinging data points to closest clusters, it is natural that those two resulted in closer results.
 
 The choice of algorithms depends on domain requirement. For the purpose of this analysis, perhaps it is better to group players into clusters of similar sizes using kmeans and hierarchical. For alternative purposes, we might choose to use mean-shift or even DBSCAN to seek clusters based on density of the dataset. Nonetheless, it is interesting to see that certain players have been grouped in the outlying boundaries. For example, we see a group of predominantly hall-of-famers including Kobe Bryant, Kevin Garnett, Tim Duncan, etc. (a group consisting of legendary players in NBA history) in the top right corner which are assigned to the same cluster for all three models. With more refined models and domain knowledge, one could utilise clustering to carry out more sports analytics allowing teams to make strategic game plans accordingly.
