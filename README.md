@@ -10,6 +10,7 @@ A supervised learning approach is used where I tested the KMeans, Hierarchical a
 * Python 3.8
 * Scikit-Learn
 * SciPy
+* Plotly
 * KMeans Clustering
 * Hierarchical Clustering
 * Mean-shift Clustering
