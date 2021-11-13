@@ -6,10 +6,13 @@ This is a project looking at a nba player dataset. The objective is to test the 
 
 A supervised learning approach is used where I tested the KMeans, Hierarchical and Mean-shift algorithms using Scikit-Learn and SciPy. More descriptions could be found in the Jupyter Notebook document.
 
-### Technologies
+### Technologies and Algorithms
 * Python 3.8
 * Scikit-Learn
 * SciPy
+* KMeans Clustering
+* Hierarchical Clustering
+* Mean-shift Clustering
 
 ## Overview
 
